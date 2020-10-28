@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Krzysztof Rzeszut Javascript developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Play:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
+
+<body>
+    <div id="cover"></div>
+    <div class="pseudoNav"></div>
+    <nav id="navS" class="clearfix">
+        <div class="menuLeft">
+            <p class="navMain">#rzeszut</p>
+        </div>
+        <div class="containerM" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <div class="menuRight">
+            <ul>
+                <li><a class="startM" href="#">start</a></li>
+                <li><a class="skillsM" href="#">umiejętności</a></li>
+                <li><a class="projectsM" href="#">projekty</a></li>
+                <li><a class="contactM" href="#">kontakt</a></li>
+            </ul>
+        </div>
+        <div class="menuSlide off">
+            <li><a class="skillsM skillsMM" href="#">umiejętności</a></li>
+            <li><a class="projectsM" href="#">projekty</a></li>
+            <li><a class="contactM" href="#">kontakt</a></li>
+        </div>
+    </nav>
+    <header>
+        <div class="headerTXT">
+            <h1>Krzysztof <span class="surname">Rzeszut</span></h1>
+            <h2 class="title">Front-End / JavaScript developer</h2>
+            <button class="myProjects">zobacz moje projekty</button>
+        </div>
+    </header>
+    <main>
+        <div class="skills">
+            <h1 class="mobileHeaders desktopHeaders">umiejętności</h1>
+            <div class="container center-text clearfix">
+                <div class="contenerIcons clearfix">
+                    <div class="smallIcons smallIcons1">
+                        <img class="sas" src="img/html55.png" alt="HTML icon">
+                        <p class="opis">HTML</p>
+                    </div>
+                    <div class="smallIcons smallIcons2">
+                        <img class="sas" src="img/css-3.png" alt="CSS icon">
+                        <p class="opis">CSS</p>
+                    </div>
+                    <div class="smallIcons smallIcons3">
+                        <img class="sas" src="img/js.png" alt="JS icon">
+                        <p class="opis">JavaScript</p>
+                    </div>
+                    <div class="smallIcons smallIcons4">
+                        <img class="sas" src="img/react.png" alt="React icon">
+                        <p class="opis">REACT</p>
+                    </div>
+                    <div class="smallIcons smallIcons5">
+                        <img class="sas" src="img/jq.jpg" alt="jQuery icon">
+                        <p class="opis">jQuery</p>
+                    </div>
+                    <div class="smallIcons smallIcons6">
+                        <img class="sas" src="img/sass.png" alt="sass icon">
+                        <p class="opis">SASS</p>
+                    </div>
+                    <div class="smallIcons smallIcons7">
+                        <img class="sas" src="img/mySQL11.png" alt="sql icon">
+                        <p class="opis">SQL</p>
+                    </div>
+                    <div class="smallIcons smallIcons8">
+                        <img class="sas" src="img/git.jpg" alt="git icon">
+                        <p class="opis">GIT</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="projectsContener clearfix">
+            <h1 class="mobileHeaders desktopHeaders">projekty</h1>
+
+
+            <div class="containerWWW">
+
+                <a id="noY" target="_blank" href="http://www.memory.krzysztofrzeszut.pl/">memory game</a>
+
+
+                <img class="workImg" src="img/projects big/A22b.jpg" alt="Avatar">
+
+
+                <div class="discriptionWWW">
+                    <h1 id="worksH1">memory game</h1>
+                    <p id="worksP">gra stworzona w oparciu o "czysty" javascript zaprogramowana proceduralnie</p>
+                    <div class="projectsLinksWWW">
+                        <a target="_blank" href="http://www.memory.krzysztofrzeszut.pl/">zagraj w grę</a>
+                        <a target="_blank" href="https://github.com/krzysztofrz/memory-game/tree/master/memory%20game">zobacz kod</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="containerWWW">
+                <a id="noY" target="_blank" href="http://www.gta.krzysztofrzeszut.pl/">gta tuning</a>
+                <img class="workImg" src="img/projects big/2b.jpg" alt="wheel">
+
+
+                <div class="discriptionWWW">
+                    <h1 id="worksH1">gta tuning</h1>
+                    <p id="worksP">Strona stworzona zgodnie z RWD przy wykorzystaniu animacji CSS, jQuery oraz
+                        bibliotkei Lightboks</p>
+                    <div class="projectsLinksWWW">
+                        <a target="_blank" href="http://www.gta.krzysztofrzeszut.pl/">odwiedź strone</a>
+                        <a target="_blank" href="https://github.com/krzysztofrz/gta-tuning">zobacz kod</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="containerWWW">
+                <a id="noY" target="_blank" href="http://casino.krzysztofrzeszut.pl/">casino</a>
+                <img class="workImg" src="img/projects big/2Cb.jpg" alt="Avatar">
+
+
+                <div class="discriptionWWW">
+                    <h1 id="worksH1">casino</h1>
+                    <p id="worksP">gra zaprojektowana w oparciu o programowanie obiektowe</p>
+                    <div class="projectsLinksWWW">
+                        <a target="_blank" href="http://casino.krzysztofrzeszut.pl/">zagraj w grę</a>
+                        <a target="_blank" href="https://github.com/krzysztofrz/casino">zobacz kod</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="containerWWW">
+                <a id="noY" target="_blank" href="https://github.com//">wheater forcast</a>
+                <img class="workImg" src="img/projects big/underC3.jpg" alt="Avatar">
+
+
+                <div class="discriptionWWW">
+                    <h1 id="worksH1">Under construction</h1>
+                    <p id="worksP">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, maxime, amet
+                        consectetur
+                        adipisicing elit. Aspernatur, maxime!</p>
+                    <div class="projectsLinksWWW">
+                        <a target="_blank" href="https://github.com//">otwórz</a>
+                        <a target="_blank" href="https://github.com//">zobacz kod</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+
+
+    <div class="contact clearfix">
+        <div class="contenerCont">
+            <h1 class="mobileHeaders desktopHeaders ">kontakt</h1>
+            <div class="email">
+                <i class="far fa-envelope"></i>
+                <p>krzysztof.rzeszut@gmail.com</p>
+            </div>
+            <div class="phone">
+                <i class="fas fa-phone-square"></i>
+                <p>+48 508 108 763</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="social">
+            <a target="_blank" href='https://github.com//'><i class="fab fa-github-square"></i></a>
+            <a target="_blank" href='https://www.linkedin.com/in/krzysztof-rzeszut-789905122/'> <i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>Copyright © Krzysztof Rzeszut. All Rights Reserved.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <script src="script.js"> </script>
+</body>
+
+</html>
